@@ -8,40 +8,88 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 |---|---|---|
 | Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
 
-## Bắt đầu nhanh
+---
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+## Báo cáo & Kết quả bài nộp của học viên
 
-## 1. Xây pipeline
+- **Học viên**: Võ Lê Hải Đăng (MSSV: 2A202603577) — Lớp K5-L3A
+- **Corpus**: Báo cáo thường niên Vinamilk 2025 (`data/raw/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf`, 110 trang hữu ích)
+- **Embedding Model**: `google/embeddinggemma-2` (chạy local trên CPU qua `sentence-transformers`)
+- **Vector Store**: `ChromaDB` (local persistent store, khoảng cách Cosine)
+- **Báo cáo cá nhân chi tiết**: [report/individual/2A202603577_VoLeHaiDang.md](report/individual/2A202603577_VoLeHaiDang.md)
+- **Nhật ký thí nghiệm**: [artifacts/experiment_log.csv](artifacts/experiment_log.csv)
+- **Bộ benchmark 20 câu (15 dev / 5 test)**: [benchmark/benchmark.json](benchmark/benchmark.json) | [benchmark/benchmark.csv](benchmark/benchmark.csv)
+- **Kết quả & Traces**: Thư mục [results/](results/)
 
-![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
+---
 
-Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
+## Hướng dẫn cài đặt & Chạy Pipeline
 
-## 2. So sánh và đánh giá
+### 1. Cài đặt môi trường
 
-![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
 
-Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
+### 2. Chạy toàn bộ pipeline thử nghiệm (Chiến lược A, B, C)
 
-Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
+```powershell
+python src/run.py
+```
 
-## 3. Chuẩn bị bài nộp
+Lệnh trên sẽ tự động:
+1. Đọc và chuẩn hóa 110 trang PDF từ `data/raw/`.
+2. Tạo 1.048 chunks cho Chiến lược A (Fixed 500) và 762 chunks cho Chiến lược B/C (Paragraph 800).
+3. Nạp model `google/embeddinggemma-2` và tính vector embedding.
+4. Lưu trữ vào ChromaDB tại `data/chroma_db/`.
+5. Chạy benchmark 20 câu hỏi (15 dev / 5 test) cho cả 3 chiến lược.
+6. Xuất toàn bộ kết quả, chỉ số Hit@1/Hit@3 và traces vào thư mục `results/`.
 
-1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
-2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
-3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
+### 3. Chạy phân tích & Audit chất lượng thủ công
 
-## Tài liệu hướng dẫn
+```powershell
+python scripts/audit_evaluation.py
+```
 
-| Bạn cần tìm | Tài liệu |
-|---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
-| Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
-| Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
-| Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
-| Tiêu chí chấm điểm | [RUBRIC.md](RUBRIC.md) |
-| Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
-| Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
+---
 
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+## Cấu trúc thư mục bài nộp
+
+```text
+├── STUDENT.md                              # Thông tin học viên
+├── requirements.txt                        # Thư viện phụ thuộc
+├── data/
+│   ├── raw/                                # PDF Báo cáo thường niên Vinamilk 2025
+│   ├── manifest.json                       # Manifest bản quyền, nguồn, quy tắc tính trang
+│   └── page_analysis.json                  # Thống kê chi tiết 110 trang hữu ích
+├── benchmark/
+│   ├── benchmark.json                      # 20 câu hỏi (15 dev / 5 test) kèm gold evidence
+│   └── benchmark.csv                       # Phiên bản CSV của bộ benchmark
+├── src/
+│   ├── models.py                           # Cấu trúc DocumentPage và Chunk
+│   ├── ingestion.py                        # Trích xuất và chuẩn hóa PDF, gán section metadata
+│   ├── chunking.py                         # 2 thuật toán chunking (Fixed-size & Paragraph-aware)
+│   ├── embeddings.py                       # Nạp google/embeddinggemma-2 qua SentenceTransformer
+│   ├── store.py                            # ChromaDB Vector Store & Metadata Filter
+│   ├── evaluation.py                       # Tính Hit@1, Hit@3 và xuất trace
+│   └── run.py                              # Script chạy toàn bộ pipeline
+├── artifacts/
+│   └── experiment_log.csv                  # Nhật ký cấu hình A/B/C và giả thuyết
+├── results/
+│   ├── metrics_summary.json                # Thống kê Hit@1/Hit@3 cho Dev/Test/All
+│   ├── traces_strategy_a.json              # Trace truy xuất Top-3 của Chiến lược A
+│   ├── traces_strategy_b.json              # Trace truy xuất Top-3 của Chiến lược B
+│   ├── traces_strategy_c.json              # Trace truy xuất Top-3 của Chiến lược C
+│   ├── audit_coherence.csv                 # Bảng chấm thủ công Coherence (10 mẫu)
+│   ├── audit_metadata.csv                  # Bảng kiểm tra tính đúng đắn của Metadata
+│   └── audit_grounding.csv                 # Bảng chấm thủ công Grounding (5 câu test)
+├── report/
+│   └── individual/
+│       └── 2A202603577_VoLeHaiDang.md      # Báo cáo cá nhân hoàn chỉnh theo mẫu
+└── scripts/
+    ├── analyze_corpus.py                   # Script phân tích số trang & ký tự PDF
+    ├── build_benchmark.py                  # Script xây dựng & đối soát evidence câu hỏi
+    └── audit_evaluation.py                 # Script đối soát audit Coherence/Metadata/Grounding
+```

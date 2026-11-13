@@ -1,0 +1,830 @@
+[
+  {
+    "question_id": "dev-01",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Năm 2025 đánh dấu sự kiện kỷ niệm bao nhiêu năm thành lập của Vinamilk?",
+    "expected_answer": "Kỷ niệm 50 năm thành lập (1976-2026).",
+    "gold_page": 4,
+    "evidence_quote": "Nhân dịp kỷ niệm 50 năm thành lập (1976-2026), thay mặt Hội đồng Quản trị (HĐQT), chúng tôi trân trọng gửi đến Quý cổ đông thông điệp về sự Vững vàng, Minh bạch và Cam kết mà Vinamilk luôn duy trì.",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": false,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p46_0393",
+        "page": 46,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ong nỗ lực tái định vị cho thương \nhiệu sữa giàu truyền thống nhất Việt Nam.\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 \nchính là bước c...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p60_0478",
+        "page": 60,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo của Ban Điều hành Báo cáo thường niên Vinamilk 2025\n- 119118 \nTrong năm 2025, những danh hiệu và giải \nthưởng Vinamilk ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p42_0340",
+        "page": 42,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 333,
+        "text_preview": "ng của công ty. Năm \n2025, hàng loạt sản phẩm mới và cải tiến \nđã được ra mắt, tuân thủ luật định cho cả \nthị trường trong nước và quốc tế – minh \nchứ...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-02",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong thông điệp mở đầu, Tổng Giám đốc nhìn lại hành trình phát triển của Vinamilk trong khoảng thời gian bao lâu?",
+    "expected_answer": "Gần nửa thế kỷ (1976–2026).",
+    "gold_page": 5,
+    "evidence_quote": "Nhìn lại hành trình gần nửa thế kỷ (1976–2026), từ những ngày đầu tiếp quản các nhà máy cũ kỹ",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p5_0018",
+        "page": 5,
+        "section": "mo_dau",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Mở đầu Báo cáo thường niên Vinamilk 2025\n- 98 \nThông điệp của \nT ổng Giám đốc\nKính thưa Quý Cổ đông, Khách hàng và Đối tác,\nNăm...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p4_0009",
+        "page": 4,
+        "section": "mo_dau",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Mở đầu Báo cáo thường niên Vinamilk 2025\n- 76 \nThông điệp của \nChủ tịch HĐQT\nKính thưa Quý Cổ đông, \nNăm 2025 đã đánh dấu sự bi...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p46_0393",
+        "page": 46,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ong nỗ lực tái định vị cho thương \nhiệu sữa giàu truyền thống nhất Việt Nam.\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 \nchính là bước c...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-03",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Tuyên bố sứ mệnh của Vinamilk đối với cộng đồng và xã hội là gì?",
+    "expected_answer": "Vinamilk cam kết mang đến cho cộng đồng nguồn dinh dưỡng tốt nhất, chất lượng nhất bằng chính sự trân trọng, tình yêu và trách nhiệm cao của mình với cuộc sống con người và xã hội.",
+    "gold_page": 8,
+    "evidence_quote": "“Vinamilk cam kết mang đến cho cộng đồng nguồn dinh dưỡng tốt nhất, chất lượng nhất bằng chính sự trân trọng, tình yêu và trách nhiệm cao của mình với cuộc sống con người và xã hội”",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p81_0759",
+        "page": 81,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "tin hàng đầu Việt \nNam về sản phẩm dinh \ndưỡng và sức khỏe \nphục vụ cuộc sống con \nngười.”\n“Vinamilk cam kết \nmang đến cho cộng \nđồng nguồn dinh dưỡng...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p5_0026",
+        "page": 5,
+        "section": "mo_dau",
+        "char_count": 499,
+        "text_preview": "” từ thập niên \n90. Cam kết xây dựng mối liên kết vững chắc với người \nnông dân, tạo ra sinh kế bền vững và chủ động phát \ntriển nguồn nguyên liệu chấ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p8_0035",
+        "page": 8,
+        "section": "thong_tin_chung",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Thông Tin Chung Báo cáo thường niên Vinamilk 2025\n- 1514 \nMô hình & chiến lược \nkinh doanh của Vinamilk\nTầm nhìn\nSứ mệnh\n“Trở t...",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "dev-04",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Mục tiêu định hướng tầm nhìn dài hạn của Vinamilk là trở thành biểu tượng gì tại Việt Nam?",
+    "expected_answer": "Biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người.",
+    "gold_page": 8,
+    "evidence_quote": "“Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người”",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": false,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p46_0393",
+        "page": 46,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ong nỗ lực tái định vị cho thương \nhiệu sữa giàu truyền thống nhất Việt Nam.\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 \nchính là bước c...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p47_0400",
+        "page": 47,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "quốc tế giúp Vinamilk \nduy trì chất lượng ổn định trên quy mô lớn - một yếu tố cốt \nlõi trong cam kết phụng sự người tiêu dùng xuyên suốt 50 \nnăm qua....",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p5_0024",
+        "page": 5,
+        "section": "mo_dau",
+        "char_count": 499,
+        "text_preview": "nhất và phù hợp với thể trạng của người \nViệt. Từ dòng sữa Green Farm thanh khiết đến các sản \nphẩm dinh dưỡng đặc trị, tất cả đều được phát triển bởi...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-05",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Để khởi tạo cơ hội kinh doanh mới, Vinamilk tập trung tối ưu hóa điều gì trong hoạt động phân phối?",
+    "expected_answer": "Tối ưu hóa năng lực vận hành và mở rộng dịch vụ phân phối đa kênh trực tiếp đến người tiêu dùng.",
+    "gold_page": 10,
+    "evidence_quote": "Tối ưu hóa năng lực vận hành và mở rộng dịch vụ phân phối đa kênh trực tiếp đến người tiêu dùng.",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p46_0393",
+        "page": 46,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ong nỗ lực tái định vị cho thương \nhiệu sữa giàu truyền thống nhất Việt Nam.\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 \nchính là bước c...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p28_0182",
+        "page": 28,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "doanh nghiệp.\ntrải rộng từ sữa A2, thực vật, sữa chua, kem cao cấp, trà Kombucha đến các sản phẩm dinh \ndưỡng chuyên biệt. Bên cạnh đó, Vinamilk đã đạ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p10_0049",
+        "page": 10,
+        "section": "thong_tin_chung",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Thông Tin Chung Báo cáo thường niên Vinamilk 2025\n- 1918 \nKhởi tạo cơ hội kinh doanh mới \nPhát triển bền vững\n• Tối ưu hóa năng...",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "dev-06",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Một thành viên độc lập HĐQT của Vinamilk đồng thời đảm nhiệm vị trí Chủ tịch Ủy ban Kiểm toán của công ty dược phẩm niêm yết nào?",
+    "expected_answer": "Công ty Cổ phần Dược Hậu Giang – DHG Pharma (DHG).",
+    "gold_page": 18,
+    "evidence_quote": "Công ty Cổ phần Dược Hậu Giang – DHG Pharma (DHG).",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p18_0089",
+        "page": 18,
+        "section": "thong_tin_chung",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Nhân sự chủ chốt Báo cáo thường niên Vinamilk 2025\n- 3534 \nChức vụ tại các tổ chức khác:\n• Hiện nay ông đang là Thành viên độc ...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p82_0775",
+        "page": 82,
+        "section": "quan_tri_cong_ty",
+        "char_count": 53,
+        "text_preview": "p đoàn Vinamilk.\nThành lập các ủy ban trực thuộc HĐQT...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p18_0095",
+        "page": 18,
+        "section": "thong_tin_chung",
+        "char_count": 90,
+        "text_preview": "Kế toán \ncủa Vinamilk.\n• Thành Viên HĐQT, Tổng Công ty Chăn nuôi Việt Nam - CTCP (Vilico)....",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-07",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Thị trường ngành hàng tiêu dùng nhanh (FMCG) tại Việt Nam năm 2025 có diễn biến tăng trưởng như thế nào?",
+    "expected_answer": "Ghi nhận mức tăng trưởng khiêm tốn.",
+    "gold_page": 26,
+    "evidence_quote": "Ngành hàng tiêu dùng nhanh (FMCG) tại Việt Nam ghi nhận mức tăng trưởng khiêm tốn",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p97_0954",
+        "page": 97,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "iệuTên rủi ro\nMức độ rủi ro\nXu hướng trong 2026\nMô tả rủi ro\nỨng phó rủi ro\nKý hiệu:\nCao Tăng\nTrung bình Ổn định\nThấp Giảm\nTrong năm 2025, thị trường ...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p26_0147",
+        "page": 26,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Tổng quan ngành sữa Báo cáo thường niên Vinamilk 2025\n- 5150 50 Năm Để Tâm Phụng Sự Tổng quan ngành sữa\nT ổng quan về ngành sữa...",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p52_0446",
+        "page": 52,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "thu năm 2025 cũng có sự tăng trưởng đáng kể, doanh thu không bao gồm doanh \nthu thương mại đạt 145 tỷ đồng. Bên cạnh siêu thị, thịt bò mát của JVL đã ...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-08",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Theo báo cáo của HĐQT, lợi nhuận sau thuế năm 2025 của Vinamilk đạt bao nhiêu và hoàn thành bao nhiêu phần trăm kế hoạch?",
+    "expected_answer": "Đạt 9.414 tỷ đồng và hoàn thành 97,9% kế hoạch năm.",
+    "gold_page": 28,
+    "evidence_quote": "Lợi nhuận sau thuế đạt 9.414 tỷ đồng, giảm 0,4% so với cùng kỳ và hoàn thành 97,9% kế hoạch năm, phản ánh khả năng duy trì hiệu quả hoạt động trong bối cảnh thị trường nhiều biến động.",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p28_0177",
+        "page": 28,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo của HĐQT Báo cáo thường niên Vinamilk 2025\n- 5554 50 Năm Để Tâm Phụng Sự Báo cáo của HĐQT\nĐánh giá của HĐQT về các mặt ...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p89_0840",
+        "page": 89,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo quản trị công ty Báo cáo thường niên Vinamilk 2025\n- 177176 \n• Đối với thù lao HĐQT:\nHiện nay, Công ty chỉ có chính sác...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p109_1035",
+        "page": 109,
+        "section": "bao_cao_tai_chinh",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo tài chính Báo cáo thường niên Vinamilk 2025\n- 217216 \n2025\nTriệu VND\n2024\nTriệu VND\nI. Báo cáo lãi lỗ\nDoanh thu\nGiá vốn...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-09",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Tổ chức Brand Finance đã xếp hạng Vinamilk vào danh sách vinh danh nào trong năm 2025?",
+    "expected_answer": "Top 100 thương hiệu giá trị nhất Việt Nam 2025.",
+    "gold_page": 62,
+    "evidence_quote": "Top 100 thương hiệu giá trị nhất Việt Nam 2025 – do Brand Finance vinh danh.",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p45_0378",
+        "page": 45,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "eo đánh giá của Brand Finance, qua đó khẳng định sức \nmạnh thương hiệu không chỉ ở quy mô nội địa mà còn trên \nbình diện quốc tế. Các sản phẩm và chiế...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p62_0485",
+        "page": 62,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo của Ban Điều hành Báo cáo thường niên Vinamilk 2025\n- 123122 \nTop 100 thương hiệu giá trị nhất Việt Nam 2025 – do \nBran...",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p45_0377",
+        "page": 45,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "iúp Vinamilk tiếp cận \nngười tiêu dùng đúng thời điểm, đúng nhu cầu, gia tăng cơ \nhội dùng thử và chuyển đổi.\nNhững nỗ lực bền bỉ trong xây dựng thươn...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-10",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Tạp chí Fortune của Mỹ đã bình chọn lãnh đạo nào của Vinamilk vào danh sách 100 phụ nữ quyền lực nhất Châu Á 2025?",
+    "expected_answer": "Tổng Giám đốc Mai Kiều Liên.",
+    "gold_page": 62,
+    "evidence_quote": "TGĐ Vinamilk Mai Kiều Liên được tạp chí Fortune (Mỹ) vinh danh Top 100 phụ nữ quyền lực nhất Châu Á 2025 (lần thứ 2 liên tiếp).",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p62_0485",
+        "page": 62,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo của Ban Điều hành Báo cáo thường niên Vinamilk 2025\n- 123122 \nTop 100 thương hiệu giá trị nhất Việt Nam 2025 – do \nBran...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p60_0481",
+        "page": 60,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 420,
+        "text_preview": "m Vinamilk có mặt trong gần 9/10 hộ gia đình \nViệt với tần suất mua đều đặn hàng tháng (14 lần/năm).\nDoanh nghiệp ngành sữa duy nhất của Việt Nam được...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p61_0483",
+        "page": 61,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ệp sản xuất và dịch vụ, vượt \nxa các thương hiệu cùng ngành – do Forbes Việt \nNam bình chọn.\nTop 1 thương hiệu sữa tiềm năng nhất thế giới 2025 \ndo Br...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-11",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Người nội bộ của Công ty theo quy định quản trị bao gồm những đối tượng nào?",
+    "expected_answer": "Thành viên HĐQT, thành viên Giám đốc Điều hành, Kế toán trưởng, Thư ký Công ty, Giám đốc KTNB, Người phụ trách quản trị công ty.",
+    "gold_page": 70,
+    "evidence_quote": "Người nội bộ của Công ty bao gồm: thành viên HĐQT, thành viên Giám đốc Điều hành, Kế toán trưởng, Thư ký Công ty, Giám đốc KTNB, Người phụ trách quản",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": false,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p9_0041",
+        "page": 9,
+        "section": "thong_tin_chung",
+        "char_count": 499,
+        "text_preview": "bền vững cho Công ty.\nNhận diện các bên liên quan Đầu mối liên lạc của Công ty để quản lý các bên liên quan\n1. Các bên liên quan bên trong\n• Cổ đông: ...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p78_0715",
+        "page": 78,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "à đội ngũ quan trọng của Công ty trong môi trường cạnh tranh cao về nguồn nhân \nlực, cùng với bản chất bảo mật của chính sách đãi ngộ và thu nhập của ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p88_0831",
+        "page": 88,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "đông, các thành viên khác trong Hội \nđồng quản trị, các cán bộ quản lý, và nhân viên của \nCông ty;\n ▪ Không phải là người trực tiếp hoặc gián tiếp sở ...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-12",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Bản điều chỉnh của Nội quy lao động được Tổng Giám đốc ký ban hành vào ngày nào?",
+    "expected_answer": "Ngày 16/09/2024.",
+    "gold_page": 75,
+    "evidence_quote": "Tổng Giám đốc đã ký ban hành bản điều chỉnh của Nội qui lao động vào ngày 16/09/2024 và đã được công bố công khai trên hệ thống thông tin nội bộ của Vinamilk",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p71_0621",
+        "page": 71,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "lao động: Công ty đã tổ chức lấy ý kiến nhân \nviên để góp ý chỉnh sửa 02 tài liệu liên quan trực tiếp \nđến người lao động là Quy định nội quy lao động...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p75_0666",
+        "page": 75,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "đây:\nNgoài ra, Tổng Giám đốc (đại diện pháp luật của Công ty) \nvà Chủ tịch Công đoàn Công ty (đại diện cho người lao \nđộng) đã ký ban hành Thỏa ước la...",
+        "is_hit": true
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p75_0665",
+        "page": 75,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo quản trị công ty Báo cáo thường niên Vinamilk 2025\n- 149148 \nTrên cơ sở thống nhất ý kiến với Ban chấp hành Công đoàn \n...",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "dev-13",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong báo cáo quản trị công ty, mức thù lao năm 2025 của Chủ tịch HĐQT Nguyễn Hạnh Phúc là bao nhiêu triệu đồng?",
+    "expected_answer": "3.261 triệu đồng.",
+    "gold_page": 78,
+    "evidence_quote": "1 Nguyễn Hạnh Phúc 3.261\nChủ tịch HĐQT (thành viên độc lập)",
+    "applied_filter": {
+      "section": "quan_tri_cong_ty"
+    },
+    "top1_hit": false,
+    "top3_hit": false,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p77_0707",
+        "page": 77,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "chủ chốt từ trang 28 đến trang 47 của báo cáo này.\nCông ty đã tuyên bố và xác nhận Chính sách Quản trị \nCông ty như đã trình bày ở phần đầu báo cáo QT...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p65_0509",
+        "page": 65,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "này thể hiện bằng một \nmục riêng tại trong Tài liệu họp ĐHĐCĐ thường niên 2025 \nnhư sau:\n“Vấn đề 10. T ổng thù lao và lợi ích khác \ncho HĐQT năm 2025\n...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p77_0710",
+        "page": 77,
+        "section": "quan_tri_cong_ty",
+        "char_count": 360,
+        "text_preview": "năm 2025 của Công ty. \nThù lao tháng (triệu đồng/người)\na. Thù lao thành viên HĐQT\nThành viên điều hành 40\nThành viên không điều hành 90\nChủ tịch\nb. T...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-14",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong phần phát triển bền vững, dây chuyền công nghệ tiên tiến nào được Vinamilk đầu tư triển khai để tối ưu hiệu suất sản xuất?",
+    "expected_answer": "Dây chuyền Tetra Pak A3 Speed và hệ thống kho thông minh.",
+    "gold_page": 103,
+    "evidence_quote": "Đầu tư mạnh vào cơ sở hạ tầng sản xuất thông qua việc triển khai các dây chuyền công nghệ tiên tiến như Tetra Pak A3 Speed và vận hành hệ thống kho thông minh, giúp tối ưu hóa hiệu suất.",
+    "applied_filter": {
+      "section": "phat_trien_ben_vung"
+    },
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p103_1001",
+        "page": 103,
+        "section": "phat_trien_ben_vung",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Phát triển bền vững Báo cáo thường niên Vinamilk 2025\n- 205204 \nCông nghiệp, \nđổi mới và \ncơ sở hạ tầng\nGiảm bất \nbình đẳng\nTiê...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p44_0368",
+        "page": 44,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 499,
+        "text_preview": "án nhà máy sữa Hưng Yên; Dự án \nnhà máy sữa Tây Ninh, và dự án phát triển bền vững, nhằm \nchủ động linh hoạt đáp ứng nhu cầu người tiêu dùng, khẳng \nđ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p4_0015",
+        "page": 4,
+        "section": "mo_dau",
+        "char_count": 500,
+        "text_preview": "ục \nvụ khách hàng nhanh chóng, chính xác hơn. \n• Phát triển bền vững (ESG): Từ cam kết đến hành động. \nVinamilk cam kết thực hiện chương trình Net Zer...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "dev-15",
+    "split": "dev",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong phần báo cáo tài chính, bản đầy đủ của BCTC kiểm toán năm 2025 của Vinamilk được công bố trên website vào ngày nào?",
+    "expected_answer": "Ngày 27 tháng 02 năm 2025.",
+    "gold_page": 107,
+    "evidence_quote": "Bản đầy đủ của báo cáo tài chính Riêng và Hợp Nhất đã kiểm toán của Công ty năm 2025 đã được công bố trên website của Công ty vào ngày 27 tháng 02 năm 2025",
+    "applied_filter": {
+      "section": "bao_cao_tai_chinh"
+    },
+    "top1_hit": false,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p80_0732",
+        "page": 80,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo quản trị công ty Báo cáo thường niên Vinamilk 2025\n- 159158 \nC.9 Trang website của Công ty\nTrong năm 2025, Công ty đã t...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p79_0727",
+        "page": 79,
+        "section": "quan_tri_cong_ty",
+        "char_count": 499,
+        "text_preview": "chứng khoán về tính minh bạch, đầy đủ, kịp thời \nthông tin cho cổ đông, nhà đầu tư và các bên có liên quan. \nNăm 2025, Vinamilk công bố đầy đủ, kịp th...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p107_1027",
+        "page": 107,
+        "section": "bao_cao_tai_chinh",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo tài chính Báo cáo thường niên Vinamilk 2025\n- 213212 \nBáo cáo Kiểm toán độc lập này được trích từ báo cáo tài chính hợp...",
+        "is_hit": true
+      }
+    ]
+  },
+  {
+    "question_id": "test-01",
+    "split": "test",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong phần phát triển bền vững, chính sách tuyển dụng của Vinamilk cam kết điều gì về việc chống phân biệt đối xử?",
+    "expected_answer": "Việc tuyển dụng đảm bảo không có sự kỳ thị và phân biệt đối xử giữa các ứng viên về giới tính, dân tộc, màu da, thành phần xã hội, tình trạng hôn nhân, tín ngưỡng, tôn giáo. Tất cả các ứng viên đều được đối xử công bằng và minh bạch.",
+    "gold_page": 102,
+    "evidence_quote": "Việc tuyển dụng đảm bảo không có sự kỳ thị và phân biệt đối xử giữa các ứng viên về giới tính, dân tộc, màu da, thành phần xã hội, tình trạng hôn nhân, tín ngưỡng, tôn giáo,…. Tất cả các ứng viên đều được đối xử công bằng và minh bạch trong suốt quá trình tuyển dụng",
+    "applied_filter": {
+      "section": "phat_trien_ben_vung"
+    },
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p102_0989",
+        "page": 102,
+        "section": "phat_trien_ben_vung",
+        "char_count": 499,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Phát triển bền vững Báo cáo thường niên Vinamilk 2025\n- 203202 \nBình đẳng \ngiới\n• Đề cao bình đẳng giới trong Chính sách Tuyển ...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p104_1015",
+        "page": 104,
+        "section": "phat_trien_ben_vung",
+        "char_count": 500,
+        "text_preview": "iêu dùng xanh, minh bạch ESG và sáng kiến \nbền vững.\nTái chế – EPR – môi trường\n• Thực hiện EPR với đối tác tái chế giấy, nhựa, kim loại; \nđóng Quỹ Bả...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p103_1003",
+        "page": 103,
+        "section": "phat_trien_ben_vung",
+        "char_count": 500,
+        "text_preview": "rường và \ncủng cố sức cạnh tranh của doanh nghiệp.\n• Vinamilk thúc đẩy giảm bất bình đẳng thông qua việc \nbảo đảm cơ hội phát triển nghề nghiệp và tiế...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test-02",
+    "split": "test",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Đến năm 2025, Vinamilk đã đạt được chứng nhận danh hiệu Hàng Việt Nam Chất Lượng Cao trong thời gian bao nhiêu năm liên tiếp?",
+    "expected_answer": "29 năm liền.",
+    "gold_page": 60,
+    "evidence_quote": "Hàng Việt Nam Chất Lượng Cao 29 năm liền.",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p60_0478",
+        "page": 60,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo của Ban Điều hành Báo cáo thường niên Vinamilk 2025\n- 119118 \nTrong năm 2025, những danh hiệu và giải \nthưởng Vinamilk ...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p46_0393",
+        "page": 46,
+        "section": "bao_cao_hoat_dong",
+        "char_count": 500,
+        "text_preview": "ong nỗ lực tái định vị cho thương \nhiệu sữa giàu truyền thống nhất Việt Nam.\nNhững dấu ấn về sự đổi mới và tăng trưởng trong năm 2025 \nchính là bước c...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p103_1005",
+        "page": 103,
+        "section": "phat_trien_ben_vung",
+        "char_count": 499,
+        "text_preview": "lượt khách \ntham gia.\n• 29 năm liền đạt “Hàng Việt Nam chất lượng cao” tính \nđến 2025.\n• Triển khai chương trình đào tạo về Kinh tế tuần hoàn và \nđang...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test-03",
+    "split": "test",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Hệ thống các đơn vị trực thuộc trong nước của Vinamilk bao gồm bao nhiêu nhà máy sản xuất sữa tại ba miền Bắc, Trung, Nam?",
+    "expected_answer": "13 nhà máy sản xuất sữa.",
+    "gold_page": 14,
+    "evidence_quote": "13 nhà máy sản xuất sữa tại Bắc, Trung, Nam",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p14_0067",
+        "page": 14,
+        "section": "thong_tin_chung",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Thông Tin Chung Báo cáo thường niên Vinamilk 2025\n- 2726 \nCấu trúc tập đoàn Vinamilk\nCông ty Cổ phần \nSữa Việt Nam\nCác chi nhán...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p102_0996",
+        "page": 102,
+        "section": "phat_trien_ben_vung",
+        "char_count": 500,
+        "text_preview": "i đã được lắp đặt tại Trụ sở \nchính, 11 Nhà máy và 13 Trang trại.\n• Hệ thống Vinamilk hiện có 10 nhà máy sử dụng hơi từ \nnguồn năng lượng xanh. Trong ...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p101_0981",
+        "page": 101,
+        "section": "phat_trien_ben_vung",
+        "char_count": 500,
+        "text_preview": "000 tấn/năm cho các Nhà máy của Vinamilk.\n• Vinamilk phát triển hệ thống Trang trại và liên kết nông \ndân tạo chuỗi giá trị sữa bền vững, đồng thời tạ...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test-04",
+    "split": "test",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trong trường hợp cần thiết, Chủ tịch HĐQT có quyền hạn gì đối với các quyết định của Tổng Giám đốc?",
+    "expected_answer": "Có thể tạm đình chỉ những quyết định của Tổng Giám đốc.",
+    "gold_page": 90,
+    "evidence_quote": "Trong trường hợp cần thiết, Chủ tịch Hội Đồng Quản Trị có thể tạm đình chỉ những quyết định của Tổng",
+    "applied_filter": null,
+    "top1_hit": false,
+    "top3_hit": false,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p89_0852",
+        "page": 89,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "mặt Hội đồng quản trị ký các Quyết định của Hội \nđồng quản trị; \nChủ tịch HĐQT cần thiết là thành viên độc lập để giúp tăng \ncường tính khách quan và ...",
+        "is_hit": false
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p89_0855",
+        "page": 89,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "Kiều Liên tại trang 30 - 31.\nD.4.1 Chủ tịch HĐQT không được kiêm nhiệm chức vụ Tổng \nGiám đốc. \nD.4.2 Chủ tịch HĐQT nên là thành viên độc lập HĐQT. \nD...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p81_0749",
+        "page": 81,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "8 của \nQuy chế Nội bộ về QTCT đã được ban hành và công bố trên \nwebsite của Công ty. Ngoài ra, HĐQT cũng đã ban hành \nNghị quyết số 07/NQ-CTS.HĐQT/202...",
+        "is_hit": false
+      }
+    ]
+  },
+  {
+    "question_id": "test-05",
+    "split": "test",
+    "strategy": "Strategy A (Fixed-500)",
+    "question": "Trang web chính thức của Vinamilk được duy trì hoạt động bằng những ngôn ngữ nào?",
+    "expected_answer": "Duy trì bằng 02 ngôn ngữ là tiếng Việt và tiếng Anh.",
+    "gold_page": 80,
+    "evidence_quote": "Website được duy trì bằng 02 ngôn ngữ là tiếng Việt và tiếng Anh trong suốt quá trình hoạt động của Công ty",
+    "applied_filter": null,
+    "top1_hit": true,
+    "top3_hit": true,
+    "retrieved_top3": [
+      {
+        "rank": 1,
+        "chunk_id": "strategy_a_p80_0732",
+        "page": 80,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "50 Năm Để Tâm Phụng Sự Báo cáo quản trị công ty Báo cáo thường niên Vinamilk 2025\n- 159158 \nC.9 Trang website của Công ty\nTrong năm 2025, Công ty đã t...",
+        "is_hit": true
+      },
+      {
+        "rank": 2,
+        "chunk_id": "strategy_a_p73_0643",
+        "page": 73,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "h hàng. \n• Thứ nhất, Vinamilk cam kết tuân thủ các quy định \ncủa Pháp luật có liên quan đến các giao dịch với nhà \ncung cấp. \nBên liên quan Chủ đề qua...",
+        "is_hit": false
+      },
+      {
+        "rank": 3,
+        "chunk_id": "strategy_a_p79_0725",
+        "page": 79,
+        "section": "quan_tri_cong_ty",
+        "char_count": 500,
+        "text_preview": "Giao dịch Chứng \nkhoán Việt Nam. Vinamilk thực hiện việc công bố thông tin \nsong ngữ bằng tiếng Việt và tiếng Anh. Điều này giúp đảm \nbảo cổ đông và n...",
+        "is_hit": false
+      }
+    ]
+  }
+]

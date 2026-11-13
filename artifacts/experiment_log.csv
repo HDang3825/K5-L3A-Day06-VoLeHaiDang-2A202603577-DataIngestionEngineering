@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy_id,hypothesis,chunk_method,chunk_size_chars,chunk_overlap,metadata_fields,filter_applied,embedding_model,vector_store,chunk_count,avg_chunk_length_chars
+Strategy A (Baseline),Chia chunk kích thước cố định theo ký tự có thể làm đứt gãy câu giữa chừng dẫn đến giảm độ mạch lạc (coherence) và giảm độ chính xác truy xuất bằng chứng.,Fixed-size window,500,50,"document_id,source,page,section,year",None,google/embeddinggemma-2,ChromaDB,1048,476.2
+Strategy B (Structure-Aware),Chia chunk tôn trọng cấu trúc đoạn văn bản và bullet points giúp chunk giữ trọn vẹn ngữ cảnh ngữ nghĩa cải thiện Hit@1/Hit@3 và điểm Coherence.,Paragraph/Structure-aware,800,Variable,"document_id,source,page,section,year",None,google/embeddinggemma-2,ChromaDB,762,595.7
+Strategy C (Metadata-Filtered),Áp dụng bộ lọc siêu dữ liệu (Metadata Filtering theo section) giúp thu hẹp phạm vi tìm kiếm loại bỏ hoàn toàn nhiễu từ các chương khác và tăng độ chính xác của bằng chứng (Grounding Quality) cho các câu hỏi theo chủ đề.,Paragraph/Structure-aware,800,Variable,"document_id,source,page,section,year",section (where clause),google/embeddinggemma-2,ChromaDB,762,595.7

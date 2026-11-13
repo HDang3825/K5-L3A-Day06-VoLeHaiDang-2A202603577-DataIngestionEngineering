@@ -1,0 +1,78 @@
+{
+  "strategy_a": {
+    "strategy": "Strategy A (Fixed-500)",
+    "dev": {
+      "total": 15,
+      "hit@1_count": 5,
+      "hit@1_rate": 0.3333333333333333,
+      "hit@3_count": 11,
+      "hit@3_rate": 0.7333333333333333
+    },
+    "test": {
+      "total": 5,
+      "hit@1_count": 4,
+      "hit@1_rate": 0.8,
+      "hit@3_count": 4,
+      "hit@3_rate": 0.8
+    },
+    "overall": {
+      "total": 20,
+      "hit@1_count": 9,
+      "hit@1_rate": 0.45,
+      "hit@3_count": 15,
+      "hit@3_rate": 0.75
+    }
+  },
+  "strategy_b": {
+    "strategy": "Strategy B (Paragraph-800)",
+    "dev": {
+      "total": 15,
+      "hit@1_count": 5,
+      "hit@1_rate": 0.3333333333333333,
+      "hit@3_count": 8,
+      "hit@3_rate": 0.5333333333333333
+    },
+    "test": {
+      "total": 5,
+      "hit@1_count": 3,
+      "hit@1_rate": 0.6,
+      "hit@3_count": 5,
+      "hit@3_rate": 1.0
+    },
+    "overall": {
+      "total": 20,
+      "hit@1_count": 8,
+      "hit@1_rate": 0.4,
+      "hit@3_count": 13,
+      "hit@3_rate": 0.65
+    }
+  },
+  "strategy_c": {
+    "strategy": "Strategy C (Metadata-Filtered)",
+    "dev": {
+      "total": 15,
+      "hit@1_count": 6,
+      "hit@1_rate": 0.4,
+      "hit@3_count": 8,
+      "hit@3_rate": 0.5333333333333333
+    },
+    "test": {
+      "total": 5,
+      "hit@1_count": 3,
+      "hit@1_rate": 0.6,
+      "hit@3_count": 5,
+      "hit@3_rate": 1.0
+    },
+    "overall": {
+      "total": 20,
+      "hit@1_count": 9,
+      "hit@1_rate": 0.45,
+      "hit@3_count": 13,
+      "hit@3_rate": 0.65
+    }
+  },
+  "timing": {
+    "index_time_seconds_a": 533.1,
+    "index_time_seconds_b": 490.22
+  }
+}

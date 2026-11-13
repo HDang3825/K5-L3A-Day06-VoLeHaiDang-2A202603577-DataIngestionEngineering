@@ -1,0 +1,44 @@
+{
+  "source_id": "VNM_AR_2025",
+  "title": "Báo cáo thường niên Vinamilk 2025 (50 Năm Để Tâm Phụng Sự)",
+  "company": "Công ty Cổ phần Sữa Việt Nam (Vinamilk)",
+  "document_type": "Báo cáo thường niên (Annual Report)",
+  "year": 2025,
+  "source_path_or_url": "data/raw/20260319_VNM_Bao_cao_thuong_nien_2025_eae619d5f6.pdf",
+  "public_disclosure_source": "Cổng thông tin công bố thông tin Sở Giao dịch Chứng khoán TP.HCM (HOSE) & Website Quan hệ Cổ đông Vinamilk",
+  "license_or_permission": "Tài liệu công bố thông tin đại chúng định kỳ bắt buộc của công ty niêm yết theo quy định Luật Chứng khoán và UBCKNN, được phép truy cập và trích dẫn phục vụ học tập, nghiên cứu phi thương mại.",
+  "accessed_at": "2026-11-13T17:18:40+07:00",
+  "file_size_bytes": 28823803,
+  "total_physical_pages": 112,
+  "page_counting_rule": "Loại bỏ trang bìa trước (trang 1) và trang bìa sau (trang 112) do không chứa nội dung phân tích (dưới 150 ký tự). Toàn bộ 110 trang còn lại (từ trang 2 đến trang 111) đều chứa nội dung văn bản hữu ích với tổng cộng 455.520 ký tự.",
+  "useful_page_count": 110,
+  "useful_page_range": [2, 111],
+  "excluded_pages": [1, 112],
+  "total_useful_characters": 455520,
+  "sections": [
+    {
+      "section_id": "mo_dau",
+      "title": "Mở đầu & Thông điệp lãnh đạo"
+    },
+    {
+      "section_id": "thong_tin_chung",
+      "title": "Phần 01: Thông tin chung"
+    },
+    {
+      "section_id": "bao_cao_hoat_dong",
+      "title": "Phần 02: Báo cáo hoạt động năm 2025"
+    },
+    {
+      "section_id": "quan_tri_cong_ty",
+      "title": "Phần 03: Quản trị công ty & Quản trị rủi ro"
+    },
+    {
+      "section_id": "phat_trien_ben_vung",
+      "title": "Phần 04: Phát triển bền vững (ESG)"
+    },
+    {
+      "section_id": "bao_cao_tai_chinh",
+      "title": "Phần 05: Báo cáo tài chính (VAS & IFRS)"
+    }
+  ]
+}

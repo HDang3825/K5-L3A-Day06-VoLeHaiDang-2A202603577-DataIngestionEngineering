@@ -1,0 +1,6 @@
+﻿question_id,question,gold_page,strategy_a_score,strategy_b_score,strategy_c_score
+test-01,"Trong phần phát triển bền vững, chính sách tuyển dụng của Vinamilk cam kết điều gì về việc chống phân biệt đối xử?",102,2,2,2
+test-02,"Đến năm 2025, Vinamilk đã đạt được chứng nhận danh hiệu Hàng Việt Nam Chất Lượng Cao trong thời gian bao nhiêu năm liên tiếp?",60,2,2,2
+test-03,"Hệ thống các đơn vị trực thuộc trong nước của Vinamilk bao gồm bao nhiêu nhà máy sản xuất sữa tại ba miền Bắc, Trung, Nam?",14,2,2,2
+test-04,"Trong trường hợp cần thiết, Chủ tịch HĐQT có quyền hạn gì đối với các quyết định của Tổng Giám đốc?",90,0,2,2
+test-05,Trang web chính thức của Vinamilk được duy trì hoạt động bằng những ngôn ngữ nào?,80,2,2,2

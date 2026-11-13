@@ -1,4 +1,4 @@
-"""Shared data contracts; keep traceability from chunk back to source."""
+"""Shared data models for ingestion pipeline."""
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -9,6 +9,7 @@ class DocumentPage:
     source: str
     page: int
     text: str
+    char_count: int = 0
     metadata: dict[str, Any] = field(default_factory=dict)
 
 
@@ -19,4 +20,6 @@ class Chunk:
     source: str
     page: int
     text: str
+    strategy: str
+    char_count: int = 0
     metadata: dict[str, Any] = field(default_factory=dict)
